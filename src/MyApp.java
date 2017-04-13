@@ -14,6 +14,17 @@ public class MyApp {
     
 
     
+    
+
+    
+=======
+ MyApp();
+ }
+
+    private static void changePrice() {
+       System.out.print("\n The price has been changed") ;
+    }
+>>>>>>> b2
 }
 class Product {
 private String name;
