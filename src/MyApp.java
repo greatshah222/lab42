@@ -3,7 +3,12 @@ public class MyApp {
  Product product = new Product("Edam", 3.3, 120);
  System.out.println("Product value is " + product.countValue());
  product.printProduct();
+ changePrice();
  }
+
+    private static void changePrice() {
+       System.out.print("\n The price has been changed") ;
+    }
 }
 class Product {
 private String name;
